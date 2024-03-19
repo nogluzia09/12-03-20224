@@ -1,3 +1,4 @@
+
 :root{
     background-color:#2c575b;
     --verde:#6FFF57;
@@ -8,4 +9,41 @@
 
 
 }
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: "Chakara Petch", sans-serif;
+
+}
+
+.conteudo-principal{
+    display: fex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+
+}
+
+.titulo-principal{
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+}
+
+.titulo-principal span{s
+    color:var(--verde);
+}
+.botao{
+    font-family: "Crackra Petch", sans-serif;
+    background-color: var(--botao-inativo);
+    color:var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: lem;
+    font-size: 18;
+}
+
+
 
